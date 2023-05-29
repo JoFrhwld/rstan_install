@@ -1,19 +1,23 @@
 sessionInfo()
-# R version 4.2.2 (2022-10-31)
+# R version 4.3.0 (2023-04-21)
 # Platform: aarch64-apple-darwin20 (64-bit)
 # Running under: macOS Ventura 13.4
 #
 # Matrix products: default
-# LAPACK: /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/lib/libRlapack.dylib
+# BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+# LAPACK: /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.11.0
 #
 # locale:
 #   [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+#
+# time zone: America/New_York
+# tzcode source: internal
 #
 # attached base packages:
 #   [1] stats     graphics  grDevices datasets  utils     methods   base
 #
 # loaded via a namespace (and not attached):
-#   [1] compiler_4.2.2 tools_4.2.2    renv_0.16.0
+#   [1] compiler_4.3.0 tools_4.3.0    renv_0.16.0
 
 system("which gfortran")
 # /usr/local/bin/gfortran
@@ -32,5 +36,4 @@ system("gcc --version")
 # Target: arm64-apple-darwin22.5.0
 # Thread model: posix
 # InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-
 
