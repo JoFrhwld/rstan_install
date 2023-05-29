@@ -37,6 +37,15 @@ system("gcc --version")
 # Thread model: posix
 # InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
+system("which clang++")
+# /usr/bin/clang++
+
+system("clang++ --version")
+# Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+# Target: arm64-apple-darwin22.5.0
+# Thread model: posix
+# InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
 readLines("~/.R/Makevars")
 # [1] ""
 # [2] "CXX14FLAGS += -O3 -mtune=native -arch arm64 -ftemplate-depth-256"
