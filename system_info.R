@@ -37,3 +37,7 @@ system("gcc --version")
 # Thread model: posix
 # InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
+readLines("~/.R/Makevars")
+# [1] ""
+# [2] "CXX14FLAGS += -O3 -mtune=native -arch arm64 -ftemplate-depth-256"
+
